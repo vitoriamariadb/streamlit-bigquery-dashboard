@@ -10,6 +10,11 @@ PAGES: dict[str, str] = {
     "KPIs": "kpis",
     "Tendencias": "trends",
     "Segmentacao": "segmentation",
+    "Analise de Coorte": "cohort",
+    "Funil Educacional": "funnel",
+    "Retencao e Evasao": "retention",
+    "Editor SQL": "sql_editor",
+    "Linhagem de Dados": "data_lineage",
 }
 
 
@@ -45,7 +50,16 @@ def render_sidebar() -> str:
             st.caption(f"Atualizando a cada {refresh_interval}s")
 
         st.markdown("---")
-        st.caption("Panorama da Educacao Basica v1.0")
+
+        username = st.session_state.get("username")
+        if username:
+            st.caption(f"Usuario: {username}")
+            if st.button("Sair", key="logout_btn"):
+                from src.auth.authenticator import Authenticator
+                Authenticator().logout()
+
+        st.markdown("---")
+        st.caption("Panorama da Educacao Basica v2.0")
 
         page_key = PAGES.get(selected_page, "home")
         logger.info("Pagina selecionada: %s", page_key)
