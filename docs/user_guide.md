@@ -3,8 +3,8 @@
 ## Visao Geral
 
 O Panorama da Educacao Basica e um dashboard interativo para analise de indicadores
-educacionais brasileiros. A ferramenta consolida dados do INEP, IDEB e outros
-indicadores em visualizacoes intuitivas.
+educacionais brasileiros. A ferramenta consolida dados do censo escolar, indicadores
+de desenvolvimento e outros em visualizacoes intuitivas.
 
 ## Requisitos
 
@@ -50,10 +50,10 @@ Para exportar os dados exibidos:
 
 | Indicador | Descricao | Fonte |
 |-----------|-----------|-------|
-| Taxa de Aprovacao | Percentual de aprovados no ano | INEP |
-| Taxa de Reprovacao | Percentual de reprovados no ano | INEP |
-| Taxa de Abandono | Percentual de abandonos | INEP |
-| IDEB | Indice de Desenvolvimento | INEP |
+| Taxa de Aprovacao | Percentual de aprovados no ano | Censo |
+| Taxa de Reprovacao | Percentual de reprovados no ano | Censo |
+| Taxa de Abandono | Percentual de abandonos | Censo |
+| IDEB | Indice de Desenvolvimento | Censo |
 | Matriculas | Total de matriculas | Censo Escolar |
 
 ## Solucao de Problemas

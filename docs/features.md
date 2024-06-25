@@ -74,7 +74,7 @@ Comparacao lado a lado entre dois periodos com variacao absoluta e percentual.
 Grafico de barras agrupadas para visualizacao.
 
 ### Linhagem de Dados
-Rastreabilidade das fontes de dados (Censo Escolar, IDEB, PNAD) e
+Rastreabilidade das fontes de dados (censo escolar, indicadores, pesquisas) e
 transformacoes aplicadas ate a visualizacao no dashboard.
 
 ## Infraestrutura
