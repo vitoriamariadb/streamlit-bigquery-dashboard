@@ -129,3 +129,4 @@ class AlertManager:
         ]
         for rule in default_rules:
             self.add_rule(rule)
+
