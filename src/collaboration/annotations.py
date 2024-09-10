@@ -124,3 +124,4 @@ def render_annotation_form(chart_id: str) -> Optional[Annotation]:
                 st.warning("Texto da anotacao e obrigatorio")
 
     return None
+
