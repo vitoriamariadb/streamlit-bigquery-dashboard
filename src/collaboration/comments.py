@@ -88,3 +88,4 @@ class CommentManager:
     @property
     def total_comments(self) -> int:
         return len(self._comments)
+
