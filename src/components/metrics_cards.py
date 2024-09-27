@@ -78,3 +78,4 @@ def render_comparison_metrics(
 
     render_metric_row(cards)
     logger.info("Metricas comparativas renderizadas: %d indicadores", len(cards))
+
