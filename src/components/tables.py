@@ -131,3 +131,4 @@ def render_pivot_table(
         logger.error("Erro ao criar tabela pivot: %s", e)
         st.error("Erro ao criar tabela pivot.")
         return None
+
