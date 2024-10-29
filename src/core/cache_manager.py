@@ -97,3 +97,4 @@ class CacheManager:
                 "active_entries": len(self._cache) - expired,
                 "max_entries": self.max_entries,
             }
+
