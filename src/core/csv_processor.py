@@ -71,3 +71,4 @@ class CSVProcessor:
         except Exception as e:
             self.logger.error("Erro ao criar DataFrame: %s", e)
             return None
+
