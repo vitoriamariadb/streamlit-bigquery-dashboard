@@ -122,3 +122,4 @@ def render_lazy_section(
         if st.button(f"Retentar {key}", key=f"retry_{key}"):
             loader.invalidate(key)
             st.rerun()
+
