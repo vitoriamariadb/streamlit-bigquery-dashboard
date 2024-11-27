@@ -112,3 +112,4 @@ class PerformanceMonitor:
                 "max_ms": round(max(timings), 1),
             }
         return stats
+
