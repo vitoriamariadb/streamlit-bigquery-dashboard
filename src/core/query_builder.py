@@ -97,3 +97,4 @@ class QueryBuilder:
         if where:
             query += f" WHERE {where}"
         return query
+
