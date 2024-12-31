@@ -136,3 +136,4 @@ def render_pdf_download(
         key=f"pdf_download_{timestamp}",
     )
     logger.info("Export PDF preparado: %s", filename)
+
