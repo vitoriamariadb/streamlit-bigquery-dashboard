@@ -94,3 +94,4 @@ def _render_demo_cohort() -> None:
         demo.style.background_gradient(cmap="RdYlGn", axis=1),
         use_container_width=True,
     )
+
