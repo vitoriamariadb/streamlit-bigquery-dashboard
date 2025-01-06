@@ -110,3 +110,4 @@ def _render_demo_funnel() -> None:
     rates = calculate_funnel_rates(values)
     rate_df = pd.DataFrame(rates, index=stages)
     st.dataframe(rate_df, use_container_width=True)
+
