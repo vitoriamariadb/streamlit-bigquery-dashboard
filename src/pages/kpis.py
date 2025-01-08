@@ -107,3 +107,4 @@ def _render_demo_kpis() -> None:
             formato=kpi["formato"],
             meta=kpi["meta"],
         )
+
