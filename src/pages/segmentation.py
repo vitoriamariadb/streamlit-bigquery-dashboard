@@ -78,3 +78,4 @@ def _render_demo_segmentation() -> None:
     })
     st.dataframe(demo, use_container_width=True)
     st.bar_chart(demo.set_index("Regiao")["Media"])
+
