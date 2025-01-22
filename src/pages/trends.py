@@ -73,3 +73,4 @@ def _render_demo_trends(selected: list[str]) -> None:
         if metric["nome"] in selected:
             st.subheader(metric["nome"])
             st.line_chart(demo_data.set_index("ano")[metric["coluna"]])
+
