@@ -248,3 +248,4 @@ class TestRetentionCalculation:
         result = calculate_retention_rate(df)
         assert "taxa_retencao" in result.columns
         assert "taxa_evasao" in result.columns
+
