@@ -129,4 +129,3 @@ class AnomalyDetector:
             total, len(results),
         )
         return results
-
