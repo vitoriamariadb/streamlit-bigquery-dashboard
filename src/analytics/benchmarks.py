@@ -100,4 +100,3 @@ def _render_demo_benchmarks() -> None:
         benchmark = NATIONAL_BENCHMARKS[metric]
         fig = create_benchmark_gauge(value, metric.replace("_", " ").title(), benchmark)
         cols[idx].plotly_chart(fig, use_container_width=True)
-
