@@ -170,4 +170,3 @@ class DataQualityChecker:
             "failed": failed,
             "score": round((passed / total * 100) if total > 0 else 0, 1),
         }
-
