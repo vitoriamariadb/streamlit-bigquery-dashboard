@@ -149,4 +149,3 @@ def _render_demo_forecast(metric: str, value_col: str, periods: int) -> None:
     fig = create_forecast_chart(demo, "ano", value_col, forecast_years, result["forecast"], metric)
     st.plotly_chart(fig, use_container_width=True)
     st.caption(f"R-quadrado: {result['r_squared']:.4f}")
-
