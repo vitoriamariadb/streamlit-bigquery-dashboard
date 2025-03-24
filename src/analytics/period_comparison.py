@@ -109,4 +109,3 @@ def _render_demo_comparison() -> None:
         "Variacao Percentual": [1.42, -15.56, -25.0, 5.66],
     }, index=["Taxa Aprovacao", "Taxa Reprovacao", "Taxa Abandono", "IDEB"])
     st.dataframe(demo, use_container_width=True)
-
