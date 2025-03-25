@@ -116,4 +116,3 @@ class ReportScheduler:
             }
             for r in self.reports
         ]
-
