@@ -121,4 +121,3 @@ def create_heatmap(
 def render_chart(fig: go.Figure, key: Optional[str] = None) -> None:
     st.plotly_chart(fig, use_container_width=True, key=key)
     logger.debug("Grafico renderizado")
-
