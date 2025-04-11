@@ -110,4 +110,3 @@ def render_year_selector(
 
     logger.info("Anos selecionados: %d - %d", start_year, end_year)
     return start_year, end_year
-
