@@ -117,4 +117,3 @@ def apply_filters(df: pd.DataFrame, filters: FilterState) -> pd.DataFrame:
         "Filtro aplicado: %d -> %d linhas", len(df), len(filtered)
     )
     return filtered
-
