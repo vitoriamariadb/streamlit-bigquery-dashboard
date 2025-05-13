@@ -71,4 +71,3 @@ def get_current_page() -> str:
         return "home"
     selected = st.session_state.get("nav_radio", "Inicio")
     return PAGES.get(selected, "home")
-
