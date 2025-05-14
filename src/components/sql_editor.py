@@ -117,4 +117,3 @@ def render_sql_editor(
             st.info("Conexao BigQuery nao disponivel. Configure as credenciais.")
 
     return None
-
