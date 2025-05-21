@@ -112,4 +112,3 @@ def apply_chart_theme(fig, theme: Optional[ThemeConfig] = None) -> None:
         plot_bgcolor=theme.background_color,
         paper_bgcolor=theme.background_color,
     )
-
