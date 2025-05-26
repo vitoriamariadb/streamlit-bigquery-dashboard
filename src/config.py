@@ -49,4 +49,3 @@ def setup_logging(
     logger.addHandler(file_handler)
 
     return logger
-
