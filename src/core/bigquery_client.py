@@ -69,4 +69,3 @@ class BigQueryClient:
         if self.client:
             self.client.close()
             self.logger.info("Conexao BigQuery encerrada")
-
