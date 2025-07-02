@@ -82,4 +82,3 @@ class QueryHistory:
     @property
     def size(self) -> int:
         return len(self._history)
-
