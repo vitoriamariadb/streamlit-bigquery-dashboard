@@ -78,4 +78,3 @@ def export_single_sheet(
     filename_prefix: str = "educacao_export",
 ) -> bytes:
     return export_dataframe_excel({sheet_name: df}, filename_prefix)
-
