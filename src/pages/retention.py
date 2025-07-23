@@ -107,4 +107,3 @@ def _render_demo_retention(view_mode: str) -> None:
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.dataframe(demo, use_container_width=True)
-
