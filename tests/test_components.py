@@ -162,4 +162,3 @@ class TestCacheEntry:
     def test_entry_not_expired(self):
         entry = CacheEntry("value", ttl=3600)
         assert not entry.is_expired()
-
