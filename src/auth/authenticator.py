@@ -81,3 +81,4 @@ class Authenticator:
         st.session_state["username"] = None
         self.logger.info("Logout realizado: %s", username)
         st.rerun()
+
