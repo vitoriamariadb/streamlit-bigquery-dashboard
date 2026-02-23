@@ -16,13 +16,13 @@ DEFAULT_QUERY_TIMEOUT: int = 300
 CACHE_TTL_SECONDS: int = 3600
 MAX_CACHE_ENTRIES: int = 100
 
-STREAMLIT_PAGE_TITLE: str = "Panorama da Educacao Basica"
+STREAMLIT_PAGE_TITLE: str = "Painel Educação Básica"
 STREAMLIT_LAYOUT: str = "wide"
 STREAMLIT_SIDEBAR_STATE: str = "expanded"
 
 
 def setup_logging(
-    name: str = "panorama",
+    name: str = "painel_educacao",
     level: int = logging.INFO,
     log_file: Optional[str] = None,
 ) -> logging.Logger:

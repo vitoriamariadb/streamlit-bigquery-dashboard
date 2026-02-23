@@ -12,7 +12,7 @@ from src.pages.funnel import render_funnel_page
 from src.pages.retention import render_retention_page
 from src.auth.authenticator import Authenticator
 
-logger: logging.Logger = setup_logging("panorama")
+logger: logging.Logger = setup_logging("painel_educacao")
 
 PAGE_REGISTRY: dict[str, dict] = {
     "home": {"titulo": "Inicio", "render": None},

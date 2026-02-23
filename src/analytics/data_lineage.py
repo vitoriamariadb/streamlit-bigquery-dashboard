@@ -67,16 +67,16 @@ DATA_SOURCES: list[DataSource] = [
 
 TRANSFORMATIONS: list[Transformation] = [
     Transformation(
-        name="panorama_consolidado",
-        description="Consolidacao dos indicadores educacionais por UF e ano",
+        name="educacao_consolidado",
+        description="Consolidação dos indicadores educacionais por UF e ano",
         input_sources=["censo_escolar", "ideb", "indicadores_fluxo"],
-        output_name="panorama_estadual",
+        output_name="educacao_estadual",
     ),
     Transformation(
-        name="panorama_municipal",
+        name="educacao_municipal",
         description="Detalhamento municipal dos indicadores",
         input_sources=["censo_escolar", "ideb"],
-        output_name="panorama_municipal",
+        output_name="educacao_municipal",
     ),
 ]
 

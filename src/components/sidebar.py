@@ -59,7 +59,7 @@ def render_sidebar() -> str:
                 Authenticator().logout()
 
         st.markdown("---")
-        st.caption("Panorama da Educacao Basica v2.0")
+        st.caption("Painel Educação Básica v2.0")
 
         page_key = PAGES.get(selected_page, "home")
         logger.info("Pagina selecionada: %s", page_key)

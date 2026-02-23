@@ -1,13 +1,13 @@
-# Panorama da Educacao Basica
+# Painel Educação Básica
 
-Dashboard interativo para analise de dados educacionais, construido com Streamlit e integrado ao BigQuery.
+Dashboard interativo para análise de dados educacionais, construído com Streamlit e integrado ao BigQuery.
 
-## Visao Geral
+## Visão Geral
 
-O Panorama da Educacao Basica consolida indicadores educacionais de diversas fontes,
-permitindo analise visual, projecoes, deteccao de anomalias e exportacao de relatorios.
+O Painel Educação Básica consolida indicadores educacionais de diversas fontes,
+permitindo análise visual, projeções, detecção de anomalias e exportação de relatórios.
 
-## Stack Tecnologica
+## Stack Tecnológica
 
 - Python 3.10+
 - Streamlit >= 1.28
@@ -20,62 +20,62 @@ permitindo analise visual, projecoes, deteccao de anomalias e exportacao de rela
 
 ```
 src/
-  config.py             - Configuracoes e logging
+  config.py             - Configurações e logging
   core/
-    bigquery_client.py   - Conexao BigQuery
+    bigquery_client.py   - Conexão BigQuery
     query_builder.py     - Construtor de queries
-    cache_manager.py     - Cache em memoria
+    cache_manager.py     - Cache em memória
     csv_processor.py     - Processamento CSV
-    performance.py       - Otimizacao de performance
-    lazy_loader.py       - Carregamento preguicoso
-    query_history.py     - Historico de queries
+    performance.py       - Otimização de performance
+    lazy_loader.py       - Carregamento preguiçoso
+    query_history.py     - Histórico de queries
     saved_queries.py     - Queries salvas
   pages/
     kpis.py              - Indicadores chave
-    trends.py            - Tendencias temporais
-    segmentation.py      - Segmentacao comparativa
-    cohort.py            - Analise de coorte
+    trends.py            - Tendências temporais
+    segmentation.py      - Segmentação comparativa
+    cohort.py            - Análise de coorte
     funnel.py            - Funil educacional
-    retention.py         - Retencao e evasao
+    retention.py         - Retenção e evasão
   components/
-    sidebar.py           - Navegacao lateral
-    filters.py           - Filtros dinamicos
+    sidebar.py           - Navegação lateral
+    filters.py           - Filtros dinâmicos
     date_picker.py       - Seletor de datas
-    charts.py            - Graficos Plotly
-    metrics_cards.py     - Cartoes de metrica
+    charts.py            - Gráficos Plotly
+    metrics_cards.py     - Cartões de métrica
     tables.py            - Tabelas paginadas
     sql_editor.py        - Editor SQL
-    theme.py             - Temas customizaveis
+    theme.py             - Temas customizáveis
   exporters/
-    csv_exporter.py      - Exportacao CSV
-    excel_exporter.py    - Exportacao Excel
-    pdf_exporter.py      - Exportacao PDF
+    csv_exporter.py      - Exportação CSV
+    excel_exporter.py    - Exportação Excel
+    pdf_exporter.py      - Exportação PDF
   analytics/
-    forecasting.py       - Projecoes
-    anomaly_detection.py - Deteccao de anomalias
+    forecasting.py       - Projeções
+    anomaly_detection.py - Detecção de anomalias
     benchmarks.py        - Benchmarks e metas
     data_quality.py      - Qualidade de dados
     data_lineage.py      - Linhagem de dados
     alerts.py            - Sistema de alertas
-    scheduler.py         - Relatorios agendados
-    period_comparison.py - Comparacao de periodos
+    scheduler.py         - Relatórios agendados
+    period_comparison.py - Comparação de períodos
   auth/
-    authenticator.py     - Autenticacao basica
+    authenticator.py     - Autenticação básica
   collaboration/
-    comments.py          - Comentarios
-    annotations.py       - Anotacoes em graficos
+    comments.py          - Comentários
+    annotations.py       - Anotações em gráficos
 app.py                   - Ponto de entrada
 tests/                   - Testes automatizados
-docs/                    - Documentacao
+docs/                    - Documentação
 ```
 
-## Instalacao
+## Instalação
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Execucao
+## Execução
 
 ```bash
 streamlit run app.py
@@ -93,35 +93,35 @@ docker compose up --build
 pytest tests/ -v
 ```
 
-## Documentacao
+## Documentação
 
-- [Guia do Usuario](docs/user_guide.md)
-- [Documentacao de Features](docs/features.md)
+- [Guia do Usuário](docs/user_guide.md)
+- [Documentação de Features](docs/features.md)
 
 ## Changelog
 
 ### v2.0.0 (2024-06-25)
-- Analise de coorte, funil e retencao
-- Projecoes e deteccao de anomalias
+- Análise de coorte, funil e retenção
+- Projeções e detecção de anomalias
 - Benchmarks com metas nacionais
-- Verificacao de qualidade de dados
-- Editor SQL com validacao
-- Queries salvas e historico
-- Exportacao Excel e PDF
-- Temas customizaveis
-- Sistema de alertas e relatorios agendados
-- Colaboracao com comentarios e anotacoes
-- Otimizacoes de performance e lazy loading
+- Verificação de qualidade de dados
+- Editor SQL com validação
+- Queries salvas e histórico
+- Exportação Excel e PDF
+- Temas customizáveis
+- Sistema de alertas e relatórios agendados
+- Colaboração com comentários e anotações
+- Otimizações de performance e lazy loading
 
 ### v1.0.0 (2023-12-28)
-- Dashboard base com KPIs, tendencias e segmentacao
-- Conexao BigQuery com cache
-- Filtros dinamicos e seletor de datas
-- Graficos Plotly e tabelas paginadas
-- Exportacao CSV
-- Autenticacao basica
-- Containerizacao Docker
+- Dashboard base com KPIs, tendências e segmentação
+- Conexão BigQuery com cache
+- Filtros dinâmicos e seletor de datas
+- Gráficos Plotly e tabelas paginadas
+- Exportação CSV
+- Autenticação básica
+- Containerização Docker
 
-## Licenca
+## Licença
 
 GPL-3.0-or-later

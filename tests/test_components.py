@@ -91,8 +91,8 @@ class TestQueryBuilder:
         f = self.qb.build_date_range_filter("data", "2020-01-01", "2023-12-31")
         assert "BETWEEN" in f
 
-    def test_build_panorama_query(self):
-        query = self.qb.build_panorama_query("panorama", estado="SP", ano_inicio=2020)
+    def test_build_education_query(self):
+        query = self.qb.build_education_query("educacao", estado="SP", ano_inicio=2020)
         assert "sigla_uf = 'SP'" in query
         assert "ano >= 2020" in query
 

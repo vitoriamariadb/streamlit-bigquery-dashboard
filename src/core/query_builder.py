@@ -64,7 +64,7 @@ class QueryBuilder:
     ) -> str:
         return f"{date_column} BETWEEN '{start_date}' AND '{end_date}'"
 
-    def build_panorama_query(
+    def build_education_query(
         self,
         table: str,
         estado: Optional[str] = None,

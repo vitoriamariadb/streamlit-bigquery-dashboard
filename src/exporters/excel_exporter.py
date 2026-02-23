@@ -11,7 +11,7 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 def export_dataframe_excel(
     dataframes: dict[str, pd.DataFrame],
-    filename_prefix: str = "panorama_export",
+    filename_prefix: str = "educacao_export",
 ) -> bytes:
     output = BytesIO()
 
@@ -44,7 +44,7 @@ def export_dataframe_excel(
 
 def render_excel_download(
     dataframes: dict[str, pd.DataFrame],
-    filename_prefix: str = "panorama_export",
+    filename_prefix: str = "educacao_export",
     label: str = "Baixar Excel",
 ) -> None:
     has_data = any(not df.empty for df in dataframes.values())
@@ -75,6 +75,6 @@ def render_excel_download(
 def export_single_sheet(
     df: pd.DataFrame,
     sheet_name: str = "Dados",
-    filename_prefix: str = "panorama_export",
+    filename_prefix: str = "educacao_export",
 ) -> bytes:
     return export_dataframe_excel({sheet_name: df}, filename_prefix)

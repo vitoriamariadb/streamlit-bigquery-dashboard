@@ -24,7 +24,7 @@ class TestEndToEndQueryFlow:
 
     def test_query_build_cache_history(self):
         qb = QueryBuilder(dataset="educacao", project_id="teste")
-        query = qb.build_panorama_query("panorama", estado="SP", ano_inicio=2020)
+        query = qb.build_education_query("educacao", estado="SP", ano_inicio=2020)
 
         cache = CacheManager(default_ttl=60)
         cache.set(query, pd.DataFrame({"ano": [2020, 2021], "ideb": [5.0, 5.2]}))

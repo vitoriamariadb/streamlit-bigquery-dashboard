@@ -14,9 +14,9 @@ class PDFReportConfig:
 
     def __init__(
         self,
-        title: str = "Panorama da Educacao Basica",
+        title: str = "Painel Educação Básica",
         subtitle: str = "",
-        author: str = "Sistema Panorama",
+        author: str = "Sistema Painel Educação",
         page_size: str = "A4",
         orientation: str = "portrait",
         include_charts: bool = True,
@@ -124,7 +124,7 @@ def render_pdf_download(
         return
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"panorama_relatorio_{timestamp}.pdf"
+    filename = f"educacao_relatorio_{timestamp}.pdf"
 
     pdf_data = generate_pdf_report(dataframes, config)
 

@@ -10,7 +10,7 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 def export_dataframe_csv(
     df: pd.DataFrame,
-    filename_prefix: str = "panorama_export",
+    filename_prefix: str = "educacao_export",
     delimiter: str = ";",
 ) -> str:
     buffer = StringIO()
@@ -20,7 +20,7 @@ def export_dataframe_csv(
 
 def render_csv_download(
     df: pd.DataFrame,
-    filename_prefix: str = "panorama_export",
+    filename_prefix: str = "educacao_export",
     label: str = "Baixar CSV",
 ) -> None:
     if df is None or df.empty:

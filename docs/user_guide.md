@@ -1,76 +1,76 @@
-# Guia do Usuario - Panorama da Educacao Basica
+# Guia do Usuário - Painel Educação Básica
 
-## Visao Geral
+## Visão Geral
 
-O Panorama da Educacao Basica e um dashboard interativo para analise de indicadores
+O Painel Educação Básica é um dashboard interativo para análise de indicadores
 educacionais brasileiros. A ferramenta consolida dados do censo escolar, indicadores
-de desenvolvimento e outros em visualizacoes intuitivas.
+de desenvolvimento e outros em visualizações intuitivas.
 
 ## Requisitos
 
 - Navegador web moderno (Chrome, Firefox, Edge)
-- Acesso a rede interna (para conexao BigQuery)
+- Acesso à rede interna (para conexão BigQuery)
 - Credenciais de acesso fornecidas pelo administrador
 
 ## Primeiros Passos
 
 ### 1. Acessando o Dashboard
 
-Acesse o dashboard pelo endereco fornecido pelo administrador do sistema.
-A pagina inicial exibe um resumo dos principais indicadores.
+Acesse o dashboard pelo endereço fornecido pelo administrador do sistema.
+A página inicial exibe um resumo dos principais indicadores.
 
-### 2. Navegacao
+### 2. Navegação
 
-Utilize o menu lateral esquerdo para navegar entre as paginas:
+Utilize o menu lateral esquerdo para navegar entre as páginas:
 
-- **Inicio**: Visao geral com metricas consolidadas
+- **Início**: Visão geral com métricas consolidadas
 - **KPIs**: Indicadores chave de performance educacional
-- **Tendencias**: Evolucao temporal dos indicadores
-- **Segmentacao**: Comparativos entre regioes, estados e redes de ensino
+- **Tendências**: Evolução temporal dos indicadores
+- **Segmentação**: Comparativos entre regiões, estados e redes de ensino
 
 ### 3. Filtros
 
-Os filtros permitem refinar a analise por:
+Os filtros permitem refinar a análise por:
 
-- **Regiao**: Norte, Nordeste, Centro-Oeste, Sudeste, Sul
+- **Região**: Norte, Nordeste, Centro-Oeste, Sudeste, Sul
 - **Estado**: Todos os 27 UFs
-- **Dependencia Administrativa**: Federal, Estadual, Municipal, Privada
-- **Etapa de Ensino**: Educacao Infantil, Fundamental, Medio
-- **Periodo**: Selecao de intervalo de anos
+- **Dependência Administrativa**: Federal, Estadual, Municipal, Privada
+- **Etapa de Ensino**: Educação Infantil, Fundamental, Médio
+- **Período**: Seleção de intervalo de anos
 
-### 4. Exportacao de Dados
+### 4. Exportação de Dados
 
 Para exportar os dados exibidos:
 
-1. Navegue ate a pagina desejada
-2. Aplique os filtros necessarios
-3. Clique no botao "Baixar CSV" abaixo da tabela
+1. Navegue até a página desejada
+2. Aplique os filtros necessários
+3. Clique no botão "Baixar CSV" abaixo da tabela
 
-## Indicadores Disponiveis
+## Indicadores Disponíveis
 
-| Indicador | Descricao | Fonte |
+| Indicador | Descrição | Fonte |
 |-----------|-----------|-------|
-| Taxa de Aprovacao | Percentual de aprovados no ano | Censo |
-| Taxa de Reprovacao | Percentual de reprovados no ano | Censo |
+| Taxa de Aprovação | Percentual de aprovados no ano | Censo |
+| Taxa de Reprovação | Percentual de reprovados no ano | Censo |
 | Taxa de Abandono | Percentual de abandonos | Censo |
-| IDEB | Indice de Desenvolvimento | Censo |
-| Matriculas | Total de matriculas | Censo Escolar |
+| IDEB | Índice de Desenvolvimento | Censo |
+| Matrículas | Total de matrículas | Censo Escolar |
 
-## Solucao de Problemas
+## Solução de Problemas
 
-### Dados nao carregam
-- Verifique a conexao de rede
+### Dados não carregam
+- Verifique a conexão de rede
 - Aguarde alguns segundos e tente novamente
 - Contate o administrador se o problema persistir
 
-### Graficos nao aparecem
-- Certifique-se de que ha dados para o filtro selecionado
+### Gráficos não aparecem
+- Certifique-se de que há dados para o filtro selecionado
 - Tente reduzir o intervalo de datas
 
-### Exportacao falha
-- Verifique se ha dados na tabela antes de exportar
+### Exportação falha
+- Verifique se há dados na tabela antes de exportar
 - Tente com um filtro menos restritivo
 
 ## Contato
 
-Para suporte tecnico, entre em contato com a equipe de dados.
+Para suporte técnico, entre em contato com a equipe de dados.
