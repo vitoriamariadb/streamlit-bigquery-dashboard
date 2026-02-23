@@ -1,21 +1,5 @@
 Dashboard interativo para análise de dados educacionais, construído com Streamlit e integrado ao BigQuery.
 
-## Visão Geral
-
-O Painel Educação Básica consolida indicadores educacionais de diversas fontes,
-permitindo análise visual, projeções, detecção de anomalias e exportação de relatórios.
-
-## Stack Tecnológica
-
-- Python 3.10+
-- Streamlit >= 1.28
-- Google BigQuery >= 3.12
-- Pandas >= 2.1
-- Plotly >= 5.18
-- NumPy >= 1.25
-
-## Estrutura do Projeto
-
 ```
 src/
   config.py             - Configurações e logging
