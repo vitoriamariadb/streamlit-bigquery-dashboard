@@ -1,5 +1,3 @@
-# Painel Educação Básica
-
 Dashboard interativo para análise de dados educacionais, construído com Streamlit e integrado ao BigQuery.
 
 ## Visão Geral
